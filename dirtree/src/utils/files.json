@@ -1,0 +1,53 @@
+{
+    "name": "root",
+    "contents": [
+        {
+            "name": "Folder 1",
+            "type": "folder",
+            "id": "1",
+            "contents": [
+                {
+                    "name": "File A",
+                    "type": "file"
+                },
+                {
+                    "name": "File B",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "Folder 2",
+            "type": "folder",
+            "id": "2",
+            "contents": [
+                {
+                    "name": "File C",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "Folder 3",
+            "type": "folder",
+            "id": "3",
+            "contents": [
+                {
+                    "name": "Sub Folder 1",
+                    "type": "folder",
+                    "id": "1",
+                    "contents": [
+                        {
+                            "name": "File D",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "File E",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}

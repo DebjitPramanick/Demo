@@ -1,0 +1,61 @@
+.container{
+    margin: auto;
+    background-color: #bdffff;
+    box-shadow: 0 0 10px #b5b5b5;
+    padding: 20px;
+    height: 80vh;
+    width: 400px;
+}
+
+.folder .main{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #84dbfd;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+.folder-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.file{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 20px;
+}
+.file-name{
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.sub-folder{
+    margin-left: 20px;
+}
+
+.search{
+    position: relative;
+}
+
+.pop-up{
+    background-color: #fff;
+    padding: 10px 10px 10px 0;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+}
+
+.search-bar{
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
